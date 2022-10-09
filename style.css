@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+header{
+	background: #e90505;
+	padding: 20px 0;
+	text-align: center;
+}
+#page-heading {
+	color: whitesmoke;
+	font-size: 40px;
+}
+header ul {
+	margin: 30px;
+}
+header ul li {
+	display: inline;
+	font-size: 17px;
+	margin: 0 10px;
+}
+header ul li a {
+	padding: 15px;
+	background: rgba(255,255,255,0.1);
+	border-radius: 15px;
+}
+header ul li a:hover {
+	color: whitesmoke;
+	transition: 0.3s;
+}
+main {
+	width: 70%;
+	margin: auto;
+}
+main h2 {
+	text-align: center;
+	margin: 30px 0 50px 0;
+	letter-spacing: 2px;
+	font-family: cursive;
+	color: #222;
+	font-size: 30px;
+}
+.cat-section {
+	border: 2px solid #0be18c;
+	margin: 20px 0;
+	padding: 10px;
+	border-radius: 20px;
+	overflow: auto;
+}
+.cat-name {
+	letter-spacing: 1px;
+	color: rgb(236, 52, 16);
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+}
+.cat-image {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #000;
+	margin: 0 10px;
+	float: right;
+}
+.cat-info {
+	font-size: 17px;
+	color: #555;
+	text-align: justify;
+}
+.skill-list {
+	margin: 10px 0;
+}
+footer {
+	background: rgb(14, 218, 85);
+	padding: 10px 0;
+	color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+footer nav ul {
+	list-style: none;
+}
+footer nav li {
+	margin: 10px 0;
+}
